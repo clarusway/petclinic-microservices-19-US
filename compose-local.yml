@@ -164,7 +164,7 @@ services:
   ## Mysql
 
   mysql-server:
-    image: mysql:5.7.8
+    image: mysql:5.7.44
     container_name: mysql-server
     environment: 
       MYSQL_ROOT_PASSWORD: petclinic
